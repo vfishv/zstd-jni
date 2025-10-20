@@ -16,12 +16,16 @@ buildscript {
 
 android {
     namespace 'com.github.luben.zstd'
+    //ndkVersion '25.1.8937393'
     compileSdkVersion 36
     defaultConfig {
         minSdkVersion 21//16
         //targetSdkVersion 26
         versionCode 1
         versionName version
+        ndk {
+            abiFilters 'armeabi-v7a', 'arm64-v8a', 'x86'//, 'x86_64'
+        }
         externalNativeBuild {
             cmake {
                 cppFlags ""
