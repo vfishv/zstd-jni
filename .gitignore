@@ -12,6 +12,7 @@ local.properties
 zstd-jni.iml
 sonatype
 gradlew*
+.cxx/
 .gradle
 *.swp
 *.o
