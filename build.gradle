@@ -16,7 +16,7 @@ buildscript {
 
 android {
     namespace 'com.github.luben.zstd'
-    //ndkVersion '25.1.8937393'
+    ndkVersion '27.3.13750724'
     compileSdkVersion 36
     defaultConfig {
         minSdkVersion 21//16
